@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "cv-woo-cart-checkout-blocks-extends/cart-notice",
+  "version": "0.1.0",
+  "title": "Cart Notice",
+  "category": "woocommerce",
+  "icon": "megaphone",
+  "description": "Cart Notice",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "cv-woo-cart-checkout-blocks-extends",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "viewScript": [
+    "cv-woo-cart-checkout-blocks-extends"
+  ],
+  "style": [
+    "cv-woo-cart-checkout-blocks-extends"
+  ]
+}
